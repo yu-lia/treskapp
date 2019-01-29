@@ -1,0 +1,214 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+p {
+color: #7d7d7d;
+}
+
+/* Headings */
+
+.big-heading {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.coloured-section {
+  background-color: #1687a7;
+  color: #e4d1d3;
+}
+
+.beige-section {
+background-color: #e4d1d3;
+}
+
+.white-section {
+background-color: #fff;
+}
+
+
+
+/* Colour palette is https://colorhunt.co/palette/124155 */
+
+/* Title section */
+
+/* #title {
+
+  text-align: left;
+} */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+    text-align: left;
+}
+
+.top-container {
+  padding: 20px 0;
+}
+
+/* Navigation bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* .navbar-dark {
+  color: #e4d1d3;
+} */
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features */
+#features {
+  position: relative;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-title {
+  font-weight: bold;
+}
+
+.feature-icon {
+  color: #014955;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #dd0a35;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+color: #014955;
+
+}
+
+.testimonial-image {
+border-radius: 100%;
+margin: 20px;
+  width: 10%;
+
+}
+
+
+
+.testimonial-text {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+#press {
+
+    padding-bottom: 3%;
+}
+
+.press-image {
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+/* Call to Action Section */
+
+#cta {
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  padding: 100px 250px;
+}
+
+#footer {
+  background-color: #fff;
+  color: #7d7d7d;
+  padding: 100px 250px;
+}
+
+.footer-link {
+  color: #7d7d7d;
+  padding: 30px 10px;
+}
+
+.copyright {
+  margin-top: 30px;
+}
+
+@media (max-width: 1028px) {
+
+#title {
+  text-align: center;
+}
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
